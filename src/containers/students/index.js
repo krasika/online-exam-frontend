@@ -72,6 +72,7 @@ export default class Student extends Component {
                       first_name: "",
                       last_name: "",
                       email: "",
+                      password: "",
                       phone: "",
                     },
                 },

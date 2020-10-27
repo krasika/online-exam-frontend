@@ -58,6 +58,16 @@ export default class addStudents extends Component {
               />
             </FormGroup>
             <FormGroup>
+              <Label for="password">Password</Label>
+              <Input
+                id="password"
+                name="password"
+                type = "password"
+                value={this.props.newStudentData.password}
+                onChange={this.props.onChangeAddStudentHandler}
+              />
+            </FormGroup>
+            <FormGroup>
               <Label for="phone">Phone</Label>
               <Input
                 id="phone"
